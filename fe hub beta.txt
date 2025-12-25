@@ -81,13 +81,19 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 ------ Tab
-     local Tab0o = MakeTab({Name = "NSFW🔞"})
+     local Tab0o = MakeTab({Name = "tsb"})
 
 ------- BUTTON
     
     AddButton(Tab0o, {
-     Name = "thinh limeted",
+     Name = "tsb auto fram kill 20%",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/thinhlimeted/refs/heads/main/tthinhlimeted.lua"))()
+	  getgenv().Settings = {
+    TargetHealth = 20,          
+    CharacterHeight = 8,        
+    ResetStreak = true,         
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/heads/main/TrashCan-Farm"))()
   end
   })
