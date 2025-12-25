@@ -97,3 +97,16 @@ end)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/heads/main/TrashCan-Farm"))()
   end
   })
+
+    AddButton(Tab0o, {
+     Name = "TSB auto fram kill 100% HP The advice is not to use auto farm kill 100% because it takes too long. ",
+    Callback = function()
+	  getgenv().Settings = {
+    TargetHealth = 100,          
+    CharacterHeight = 8,        
+    ResetStreak = true,         
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/heads/main/TrashCan-Farm"))()
+  end
+  })
