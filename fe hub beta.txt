@@ -12,7 +12,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
         KeyLink = "idk bro",
         Keys = {"hub"},
         Notifi = {
-        Notifications = true,
+        Notifications = false,
         CorrectKey = "Running the Script...",
        Incorrectkey = "The key is incorrect",
        CopyKeyLink = "Copied to Clipboard"
