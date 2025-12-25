@@ -82,3 +82,12 @@ RunService.RenderStepped:Connect(function()
 end)
 ------ Tab
      local Tab0o = MakeTab({Name = "NSFW🔞"})
+
+------- BUTTON
+    
+    AddButton(Tab0o, {
+     Name = "thinh limeted",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thunhchk/thinhlimeted/refs/heads/main/tthinhlimeted.lua"))()
+  end
+  })
