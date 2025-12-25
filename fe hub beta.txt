@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "fe hub-synthesizes good scripts for everyone ",
+         Title = "FE Hub was made by Shark",
          Animation = "script by shark"
          },
         Key = {
