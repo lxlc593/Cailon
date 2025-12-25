@@ -2,15 +2,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "fe hub synthesizes good scripts for everyone ",
+         Title = "fe hub-synthesizes good scripts for everyone ",
          Animation = "script by shark"
          },
         Key = {
         KeySystem = true,
-        Title = "fe hub keySystem"‚
+        Title = "fe hub keySystem",
         Description = "",
         KeyLink = "idk bro",
-        Keys = {"fe"},
+        Keys = {"hub"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=130303297520520",
+       Image = "http://www.roblox.com/asset/?id=82552663036988",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -81,19 +81,4 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 ------ Tab
-     local Tab0o = MakeTab({Name = "tsb"})
-     
-------- BUTTON
-    
-  AddButton(Tab0o, {
-     Name = "auto fram tsb vip 20% HB",
-    Callback = function()
-	  loadstring(game:HttpGet("getgenv().Settings = {
-    TargetHealth = 20,          
-    CharacterHeight = 8,        
-    ResetStreak = true,         
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/heads/main/TrashCan-Farm"))()"))()
-  end
-  })
+     local Tab0o = MakeTab({Name = "NSFW🔞"})
