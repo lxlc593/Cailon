@@ -6,7 +6,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
          Animation = "script by shark"
          },
         Key = {
-        KeySystem = true,
+        KeySystem = false,
         Title = "fe hub keySystem",
         Description = "",
         KeyLink = "idk bro",
@@ -81,12 +81,12 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 ------ Tab
-     local Tab0o = MakeTab({Name = "tsb"})
+     local Tab0o = MakeTab({Name = "TSB AUTO Farm"})
 
 ------- BUTTON
     
     AddButton(Tab0o, {
-     Name = "tsb auto fram kill 20%",
+     Name = "TSB auto fram kill 20%",
     Callback = function()
 	  getgenv().Settings = {
     TargetHealth = 20,          
